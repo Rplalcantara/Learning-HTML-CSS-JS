@@ -1,73 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <Head>
+  <head>
+    <title>Aprendendo HTML</title>
 
-        <title>Aprendendo HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Decrição da página web" />
+    <meta name="author" content="Renan Alcantara" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta CHARSET="UTF-8"/>
-        <meta name="description" content="Decrição da página web"/>
-        <meta name="author" content="Renan Alcantara"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src=""></script>
+  </head>
 
-        <script type="text/javascript" src=""></script>
+  <body>
+    <header>
+      <!--Header img placeholder-->
 
-    </Head>
+      <img src="headerplaceholder.jpg" alt="Placeholder" title="Placeholder" />
+    </header>
 
-    <body>
+    <main>
+      <!--Divisions-->
+      <section>
+        <h1>Alguns MEMES:</h1>
+        <br />
 
-        <header>
-            
-            <!--Header img placeholder-->
-            
-            <img src="headerplaceholder.jpg" alt="Placeholder" title="Placeholder"/>
+        <div class="bloco-post" id="div1">
+          <img src="meme1.jpeg" class="img-post" />
+        </div>
+        <br />
 
-        </header>
+        <div class="bloco-post" id="div2">
+          <img src="meme2.jpg" class="img-post" />
+        </div>
+        <br />
 
-        <main>
+        <div class="bloco-post" id="div3">
+          <img src="meme3.jpg" class="img-post" />
+        </div>
+        <br />
 
-            <!--Divisions-->
-            <section>
+        <div class="bloco-post" id="div4">
+          <img src="meme4.jpg" class="img-post" />
+        </div>
+        <br />
+      </section>
 
-                <h1>Alguns MEMES:</h1>
-                <br>
+      <!--Form-->
 
-                <div class="bloco-post" id="div1">
+      <form action="#" method="POST">
+        <label for="q1"><b>Name:</b></label>
+        <input type="text" name="nome" id="q1" />
+        <br />
 
-                    <img src="meme1.jpeg" class="img-post"/>
+        <label for="q2"><b>What do you like more?</b></label>
+        <select name="interests" id="q2">
+          <option value="1">Potato</option>
+          <option value="2">Study</option>
+        </select>
+        <br /><br />
 
-                </div>
-                <br>
+        <fieldset>
+          <legend><b>What do you like more?</b></legend>
+          <label for="3-1">Potato</label>
+          <input type="radio" name="interests2" value="1" id="3-1" />
+          <label for="3-2">Study</label>
+          <input type="radio" name="interests2" value="2" id="3-2" />
+          <br /><br />
+        </fieldset>
 
-                <div class="bloco-post" id="div2">
+        <fieldset>
+          <legend><b>What do you like more?</b></legend>
+          <label for="4-1">Potato</label>
+          <input type="checkbox" name="interests3" value="1" id="4-1" />
+          <label for="4-2">Study</label>
+          <input type="checkbox" name="interests3" value="2" id="4-2" />
+        </fieldset>
+        <br /><br />
 
-                    <img src="meme2.jpg" class="img-post"/>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
 
-                </div>
-                <br>
-
-                <div class="bloco-post" id="div3">
-
-                    <img src="meme3.jpg" class="img-post"/>
-
-                </div>
-                <br>
-                
-                <div class="bloco-post" id="div4">
-
-                    <img src="meme4.jpg" class="img-post"/>
-
-                </div>
-                <br>
-
-            </section>
-
-        </main>
-
-    </body>
-
-    <br>
-    <a href="index.html"> <- Previous Page</a>
-
-</html>    
+  <br />
+  <a href="index.html"> <- Previous Page</a>
+</html>
