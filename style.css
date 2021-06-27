@@ -4,8 +4,26 @@ body {
     margin: 5%;
 }
 
-.bloco-post {
-    height: 466px;
+.bloco-post1 {
     width: 717px;
+    height: 466px;
     border: solid 2px #ff00af;
+}
+
+.bloco-post2 {
+    width: 750px;
+    height: 714px;
+    border: solid 2px #ff00ff;
+}
+
+.bloco-post3 {
+    width: 252px;
+    height: 144px;
+    border: solid 2px #ffaaff;
+}
+
+.bloco-post4 {
+    width: 640px;
+    height: 400px;
+    border: solid 2px #ff5fff;
 }

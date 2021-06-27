@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aprendendo HTML</title>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Decrição da página web" />
+    <meta name="author" content="Renan Alcantara" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    </head>
+
+  <body>
+
+    <header>
+        <!--DOM JS Events-->
+  
+        <h1><p id="text1">Testing JS</p></h1>
+    </br>
+        <h1><p>Testing JS</p></h1>
+     
+        <script type="text/javascript">
+
+            document.getElementById("text1").style.color = "yellow";
+        
+        </script>
+
+        <button id="button1" onclick="update()">Testing JS</button>
+
+        <script type="text/javascript">
+
+            function update() {
+                var text1 = document.getElementById("text1");
+                text1.innerText = "Wololo";
+            }
+
+        </script>
+
+    </header>
+
+</br>
+    <a href="page2.html"> <- Previous Page </a>
+  </body>
+</html>
